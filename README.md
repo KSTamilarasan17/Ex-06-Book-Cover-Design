@@ -1,23 +1,29 @@
 # Ex-06-Book-Cover-Design
-To develop a website to display the cover page design of a book
-Design Steps:
-Step 1:
+# To develop a website to display the cover page design of a book
+# Design Steps:
+# Step 1:
+
 Create a new Django project and app.
 
-Step 2:
+# Step 2:
+
 Create a static file directory and mention the changes in settings.
 
-Step 3:
+# Step 3:
+
 Make a new folder templates inside your app and create a html and map them using views and url.
 
-Step 4:
+# Step 4:
+
 Write down the code for book cover using HTML and CSS.
 
-Step 5:
+# Step 5:
+
 Add images and other contents using CSS record a screenshot of it.
 
-Code:
-HTML:
+# Code:
+# HTML:
+```
 {% load static %}
 
 <!DOCTYPE html>
@@ -42,7 +48,9 @@ HTML:
     </section>
     </body>
 </html>
-CSS:
+```
+# CSS:
+```
 body{
     color:rgb(255, 255, 255);
     font-family: Helvetica, sans-serif;
@@ -101,5 +109,6 @@ footer{
   #end{
     padding-right:60px;
   }
-OUTPUT:
-![image](https://github.com/KSTamilarasan17/Ex-06-Book-Cover-Design/assets/138849236/f31b8c2f-3dfa-40d6-8dcc-3af09f84225e)
+```
+#   OUTPUT:
+![image](https://github.com/Lokhnath10/Ex-06-Book-Cover-Design/assets/138969918/795ff485-aabb-40dc-8cc5-7404f6a47eca)
